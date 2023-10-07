@@ -1,4 +1,4 @@
-// Definimos un objeto que contiene las categorías y las rutas de las imágenes
+// Define un objeto que contiene las categorías y las rutas de las imágenes
 const imageCategories = {
   'web-development': [
     'img/diploma-html-css_pagina_1.jpg',
@@ -86,7 +86,7 @@ function activateCategory(category) {
 }
 
 // Evento click en los enlaces de categoría
-const categoryLinks = document.querySelectorAll('.category-link');
+const categoryLinks = document.querySelectorAll('.category-button');
 categoryLinks.forEach((link) => {
   link.addEventListener('click', (event) => {
     event.preventDefault();

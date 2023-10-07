@@ -49,8 +49,8 @@ main {
 }
 
 .image-gallery img {
-    max-width: 25%;
-    height: auto;
+    max-width: 50%; /* Hace que las imágenes se ajusten al ancho del contenedor */
+    height: auto; /* Mantiene la relación de aspecto */
     margin-bottom: 20px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease-in-out;
@@ -144,4 +144,23 @@ footer {
 
 .social-links a:hover {
     text-decoration: underline; /* Subrayado al pasar el ratón por encima */
+}
+
+/* Estilos para hacer responsive */
+@media (max-width: 768px) {
+    header {
+        padding: 10px 0; /* Ajusta el espaciado en dispositivos más pequeños */
+    }
+
+    header h1 {
+        font-size: 1.5rem; /* Reduce el tamaño del encabezado en dispositivos más pequeños */
+    }
+
+    nav li {
+        margin-right: 10px; /* Reduce el margen entre elementos de navegación */
+    }
+    
+    .image-gallery img {
+        max-width: 100%; /* Asegura que las imágenes sean completamente responsivas */
+    }
 }
