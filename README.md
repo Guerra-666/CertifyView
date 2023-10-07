@@ -1,8 +1,6 @@
-Claro, aquí tienes un ejemplo de documentación que podrías incluir en el archivo README.md de tu repositorio de GitHub para describir tu página web de certificados:
-
 # Página de Certificados
 
-Esta página web tiene como objetivo mostrar de manera organizada y estilizada los certificados obtenidos por Adrian Guerra en diversos campos de estudio. Surge como respuesta a la necesidad de contar con una plataforma personalizada para mostrar los logros académicos y profesionales de manera más efectiva que las opciones convencionales disponibles en LinkedIn u otros servicios en línea.
+Esta página web tiene como objetivo mostrar de manera organizada y estilizada los certificados obtenidos en diversos campos de estudio. Surge como respuesta a la necesidad de contar con una plataforma personalizada para mostrar los logros académicos y profesionales de manera más efectiva que las opciones convencionales disponibles en LinkedIn u otros servicios en línea.
 
 ## Tecnologías Utilizadas
 
